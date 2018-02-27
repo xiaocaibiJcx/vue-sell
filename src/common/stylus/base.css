@@ -1,0 +1,315 @@
+body, html {
+  line-height: 1;
+  font-weight: 200;
+  font-family: 'PingFang Sc', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif;
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),(min-device-pixel-ratio: 1.5) {
+  .border-1px::after {
+    -webkit-transform: scaleY(.7);
+    transform: scaleY(.7);
+  }
+}
+
+@media (-webkit-device-pixel-ratio: 2),(device-pixel-ratio: 2) {
+  .border-1px::after {
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2) {
+  #header .content-wrapper .content .title .brand {
+    background: url("../../components/header/brand@2x.png") no-repeat;
+    background-size: 30px 18px;
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3) {
+  #header .content-wrapper .content .title .brand {
+    background: url("../../components/header/brand@3x.png") no-repeat;
+    background-size: 30px 18px;
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2) {
+  #header .content-wrapper .content .support .decrease {
+    background: url("../../components/header/decrease_1@2x.png");
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3) {
+  #header .content-wrapper .content .support .decrease {
+    background: url("../../components/header/decrease_1@3x.png");
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2) {
+  #header .content-wrapper .content .support .discount {
+    background: url("../../components/header/discount_1@2x.png");
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3) {
+  #header .content-wrapper .content .support .discount {
+    background: url("../../components/header/discount_1@3x.png");
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2) {
+  #header .content-wrapper .content .support .guarantee {
+    background: url("../../components/header/guarantee_1@2x.png");
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3) {
+  #header .content-wrapper .content .support .guarantee {
+    background: url("../../components/header/guarantee_1@3x.png");
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2) {
+  #header .content-wrapper .content .support .invoice {
+    background: url("../../components/header/invoice_1@2x.png");
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3) {
+  #header .content-wrapper .content .support .invoice {
+    background: url("../../components/header/invoice_1@3x.png");
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2) {
+  #header .content-wrapper .content .support .special {
+    background: url("../../components/header/special_2@2x.png");
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3) {
+  #header .content-wrapper .content .support .special {
+    background: url("../../components/header/special_1@3x.png");
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2) {
+  #header .bulletin-wrapper .bulletin-title {
+    background: url("../../components/header/bulletin@2x.png") no-repeat;
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3) {
+  #header .bulletin-wrapper .bulletin-title {
+    background: url("../../components/header/bulletin@3x.png") no-repeat;
+  }
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+.clearfix::after {
+  display: block;
+  content: " ";
+  height: 0;
+  line-height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/*评分*/
+/*28*/
+@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2) {
+  .star-48 .star-item.on {
+    background: url("../../components/star/star48_on@2x.png");
+  }
+
+  .star-48 .star-item.half {
+    background: url("../../components/star/star48_half@2x.png");
+  }
+
+  .star-48 .star-item.off {
+    background: url("../../components/star/star48_off@2x.png");
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3) {
+  .star-48 .star-item.on {
+    background: url("../../components/star/star48_on@3x.png");
+  }
+
+  .star-48 .star-item.half {
+    background: url("../../components/star/star48_half@3x.png");
+  }
+
+  .star-48 .star-item.off {
+    background: url("../../components/star/star48_off@3x.png");
+  }
+}
+
+/*36*/
+@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2) {
+  .star-36 .star-item.on {
+    background: url("../../components/star/star36_on@2x.png");
+  }
+
+  .star-36 .star-item.half {
+    background: url("../../components/star/star36_half@2x.png");
+  }
+
+  .star-36 .star-item.off {
+    background: url("../../components/star/star36_off@2x.png");
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3) {
+  .star-36 .star-item.on {
+    background: url("../../components/star/star36_on@3x.png");
+  }
+
+  .star-36 .star-item.half {
+    background: url("../../components/star/star36_half@3x.png");
+  }
+
+  .star-36 .star-item.off {
+    background: url("../../components/star/star36_off@3x.png");
+  }
+}
+
+/*24*/
+@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2) {
+  .star-24 .star-item.on {
+    background: url("../../components/star/star24_on@2x.png");
+  }
+
+  .star-24 .star-item.half {
+    background: url("../../components/star/star24_half@2x.png");
+  }
+
+  .star-24 .star-item.off {
+    background: url("../../components/star/star24_off@2x.png");
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3) {
+  .star-24 .star-item.on {
+    background: url("../../components/star/star24_on@3x.png");
+  }
+
+  .star-24 .star-item.half {
+    background: url("../../components/star/star24_half@3x.png");
+  }
+
+  .star-24 .star-item.off {
+    background: url("../../components/star/star24_off@3x.png");
+  }
+}
+
+/*商家优惠图标*/
+@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2) {
+  #header .detail .detail-wrapper .detail-main .supports .support-item .icon.decrease {
+    background: url("../../components/header/decrease_2@2x.png");
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2) {
+  #header .detail .detail-wrapper .detail-main .supports .support-item .icon.discount {
+    background: url("../../components/header/discount_2@2x.png");
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2) {
+  #header .detail .detail-wrapper .detail-main .supports .support-item .icon.invoice {
+    background: url("../../components/header/invoice_2@2x.png");
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2) {
+  #header .detail .detail-wrapper .detail-main .supports .support-item .icon.special {
+    background: url("../../components/header/special_2@2x.png");
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2) {
+  #header .detail .detail-wrapper .detail-main .supports .support-item .icon.guarantee {
+    background: url("../../components/header/guarantee_2@2x.png");
+  }
+}
+/*goods*/
+@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2) {
+  .goods .menu-wrapper .memu-item .icon.decrease {
+    background: url("../../components/goods/decrease_3@2x.png");
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2) {
+  .goods .menu-wrapper .memu-item .icon.discount {
+    background: url("../../components/goods/discount_3@2x.png");
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2) {
+  .goods .menu-wrapper .memu-item .icon.invoice {
+    background: url("../../components/goods/invoice_3@2x.png");
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2) {
+  .goods .menu-wrapper .memu-item .icon.special {
+    background: url("../../components/goods/special_3@2x.png");
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2) {
+  .goods .menu-wrapper .memu-item .icon.guarantee {
+    background: url("../../components/goods/guarantee_3@2x.png");
+  }
+}
+/*seller*/
+@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2) {
+  .seller .bulletin .supports .support-item .icon.decrease {
+    background: url("../../components/seller/decrease_4@2x.png");
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3) {
+  .seller .bulletin .supports .support-item .icon.decrease {
+    background: url("../../components/seller/decrease_4@3x.png");
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2) {
+  .seller .bulletin .supports .support-item .icon.discount {
+    background: url("../../components/seller/discount_4@2x.png");
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3) {
+  .seller .bulletin .supports .support-item .icon.discount {
+    background: url("../../components/seller/discount_4@3x.png");
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2) {
+  .seller .bulletin .supports .support-item .icon.special {
+    background: url("../../components/seller/special_4@2x.png");
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3) {
+  .seller .bulletin .supports .support-item .icon.special {
+    background: url("../../components/seller/special_4@3x.png");
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2) {
+  .seller .bulletin .supports .support-item .icon.invoice {
+    background: url("../../components/seller/invoice_4@2x.png");
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3) {
+  .seller .bulletin .supports .support-item .icon.invoice {
+    background: url("../../components/seller/invoice_4@3x.png");
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2) {
+  .seller .bulletin .supports .support-item .icon.guarantee {
+    background: url("../../components/seller/guarantee_4@2x.png");
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3) {
+  .seller .bulletin .supports .support-item .icon.guarantee {
+    background: url("../../components/seller/guarantee_4@3x.png");
+  }
+}
+
