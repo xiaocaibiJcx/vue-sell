@@ -33,12 +33,12 @@
     line-height: 24px;
     font-size: 24px;
     color: rgb(0, 160, 220);
-    /*transform: rotate(0deg);*/
+    transform: rotate(0deg);
   }
 
-  /*.move-enter .inner, .move-leave-active .inner {*/
-    /*transform: rotate(180deg);*/
-  /*}*/
+  .move-enter .inner, .move-leave-active .inner {
+  transform: rotate(180deg);
+  }
 
   .cartcontrol .cart-count {
     display: inline-block;
@@ -61,6 +61,7 @@
 </style>
 <script type="text/ecmascript-6">
   import Vue from 'vue';
+
   export default {
     props: {
       food: {
@@ -77,8 +78,7 @@
         } else {
           this.food.count++;
         }
-    console.log(event.target);
-    this.$emit('add', event.target);
+        this.$emit('add', event.target);
       },
       decreaseCart(event) {
         if (!event._constructed) {

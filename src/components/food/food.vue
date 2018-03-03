@@ -18,7 +18,7 @@
             <span class="now">￥{{food.price}}</span><span class="old" v-show="food.oldPrice">￥{{food.oldPrice}}</span>
           </div>
           <div class="cartcontrol-wrapper">
-            <v-cartcontrol :food="food"></v-cartcontrol>
+            <v-cartcontrol @add="addFood" :food="food"></v-cartcontrol>
           </div>
           <transition name="fade">
             <div class="buy" v-show="!food.count || food.count===0" @click.stop.prevent="addFirst">
@@ -328,6 +328,9 @@
       },
       hide() {
         this.showFlag = false;
+      },
+      addFood(target) {
+        this.$emit('add', target);
       },
       addFirst(event) {
         if (!event._constructed) {
