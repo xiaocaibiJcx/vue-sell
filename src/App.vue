@@ -38,7 +38,7 @@
     },
     created() {
       const url = debug ? '/api/seller' : 'http://118.31.77.79/sell/api/seller';
-      this.$http.get(url + '?id=' + this.seller.id).then((response) => {
+      this.$http.get(url).then((response) => {
         response = response.body;
         if (response.errno === ERR_OK) {
           this.seller = Object.assign({}, this.seller, response.data);
