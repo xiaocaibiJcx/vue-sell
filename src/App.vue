@@ -23,7 +23,7 @@
   import header from './components/header/header';
 
   const ERR_OK = 0;
-    const debug = process.env.NODE_ENV !== 'production';
+//    const debug = process.env.NODE_ENV !== 'production';
   export default {
     data() {
       return {
