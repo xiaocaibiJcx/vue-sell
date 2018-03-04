@@ -325,10 +325,6 @@
       'v-cartcontrol': cartcontrol,
       'v-food': food
     }
-//  _followScroll(index) {
-//    let menuList = this.$refs.menuList;
-//    let el = menuList[index];
-//    this.
-//  }
+
   };
 </script>

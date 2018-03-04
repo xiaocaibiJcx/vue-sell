@@ -37,8 +37,8 @@
       };
     },
     created() {
-      const url = debug ? '/api/seller' : 'http://118.31.77.79/sell/api/seller';
-      this.$http.get(url + '?id=' + this.seller.id).then((response) => {
+//      const url = debug ? '/api/seller' : 'http:///sell/api/seller';
+      this.$http.get('/api/seller?id=' + this.seller.id).then((response) => {
         response = response.body;
         if (response.errno === ERR_OK) {
           this.seller = Object.assign({}, this.seller, response.data);
