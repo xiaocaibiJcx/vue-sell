@@ -246,6 +246,7 @@
           let height1 = this.listHeight[i];
           let height2 = this.listHeight[i + 1];
           if (!height2 || (this.scrollY >= height1 && this.scrollY < height2)) {
+            this._followScroll(i);
             return i;
           }
         }
@@ -324,6 +325,11 @@
         this.$nextTick(() => {
           this.$refs.shopcart.drop(target);
         });
+      },
+      _followScroll(index) {
+        let menuList = this.$refs.menuList;
+        let el = menuList[index];
+        this.menuScroll.scrollToElement(el, 300, 0, -100);
       }
     },
     components: {
