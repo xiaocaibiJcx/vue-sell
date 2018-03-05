@@ -211,16 +211,32 @@ body, html {
     background: url("../../components/header/decrease_2@2x.png");
   }
 }
+@media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3) {
+  #header .detail .detail-wrapper .detail-main .supports .support-item .icon.decrease {
+    background: url("../../components/header/decrease_2@3x.png");
+  }
+}
 
 @media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2) {
   #header .detail .detail-wrapper .detail-main .supports .support-item .icon.discount {
     background: url("../../components/header/discount_2@2x.png");
   }
 }
+@media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3) {
+  #header .detail .detail-wrapper .detail-main .supports .support-item .icon.discount {
+    background: url("../../components/header/discount_2@3x.png");
+  }
+}
+
 
 @media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2) {
   #header .detail .detail-wrapper .detail-main .supports .support-item .icon.invoice {
     background: url("../../components/header/invoice_2@2x.png");
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3) {
+  #header .detail .detail-wrapper .detail-main .supports .support-item .icon.invoice {
+    background: url("../../components/header/invoice_2@3x.png");
   }
 }
 @media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2) {
@@ -228,9 +244,19 @@ body, html {
     background: url("../../components/header/special_2@2x.png");
   }
 }
+@media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3) {
+  #header .detail .detail-wrapper .detail-main .supports .support-item .icon.special {
+    background: url("../../components/header/special_2@3x.png");
+  }
+}
 @media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2) {
   #header .detail .detail-wrapper .detail-main .supports .support-item .icon.guarantee {
     background: url("../../components/header/guarantee_2@2x.png");
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3) {
+  #header .detail .detail-wrapper .detail-main .supports .support-item .icon.guarantee {
+    background: url("../../components/header/guarantee_2@3x.png");
   }
 }
 /*goods*/
@@ -239,9 +265,19 @@ body, html {
     background: url("../../components/goods/decrease_3@2x.png");
   }
 }
+@media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3) {
+  .goods .menu-wrapper .memu-item .icon.decrease {
+    background: url("../../components/goods/decrease_3@3x.png");
+  }
+}
 @media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2) {
   .goods .menu-wrapper .memu-item .icon.discount {
     background: url("../../components/goods/discount_3@2x.png");
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3) {
+  .goods .menu-wrapper .memu-item .icon.discount {
+    background: url("../../components/goods/discount_3@3x.png");
   }
 }
 @media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2) {
@@ -249,14 +285,29 @@ body, html {
     background: url("../../components/goods/invoice_3@2x.png");
   }
 }
+@media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3) {
+  .goods .menu-wrapper .memu-item .icon.invoice {
+    background: url("../../components/goods/invoice_3@3x.png");
+  }
+}
 @media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2) {
   .goods .menu-wrapper .memu-item .icon.special {
     background: url("../../components/goods/special_3@2x.png");
   }
 }
+@media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3) {
+  .goods .menu-wrapper .memu-item .icon.special {
+    background: url("../../components/goods/special_3@3x.png");
+  }
+}
 @media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2) {
   .goods .menu-wrapper .memu-item .icon.guarantee {
     background: url("../../components/goods/guarantee_3@2x.png");
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3) {
+  .goods .menu-wrapper .memu-item .icon.guarantee {
+    background: url("../../components/goods/guarantee_3@3x.png");
   }
 }
 /*seller*/
