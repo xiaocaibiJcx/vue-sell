@@ -5,7 +5,7 @@
         <li v-for="(item,index) in goods" class="memu-item" ref="menuList" :class="{'current':currentIndex===index}"
             @click="selectMenu(index,$event)">
             <span class="text  border-1px">
-              <span v-show="item.type>0" class="icon" :class="classMap[item.type]"></span>{{item.name}}
+              <span v-show="item.type>0" class="icon icongoods" :class="classMap[item.type]"></span>{{item.name}}
             </span>
         </li>
       </ul>
@@ -40,8 +40,9 @@
         </li>
       </ul>
     </div>
-    <v-shopcart ref="shopcart" :select-foods="selectFoods" :delivery-price="seller.deliveryPrice" :min-price="seller.minPrice"></v-shopcart>
-    <v-food  @add="addFood" :food="selectedFood" ref="food"></v-food>
+    <v-shopcart ref="shopcart" :select-foods="selectFoods" :delivery-price="seller.deliveryPrice"
+                :min-price="seller.minPrice"></v-shopcart>
+    <v-food @add="addFood" :food="selectedFood" ref="food"></v-food>
   </div>
 </template>
 <style scoped>
@@ -89,6 +90,9 @@
     height: 12px;
     vertical-align: top;
     margin-right: 2px;
+  }
+
+  .goods .menu-wrapper .memu-item .icon.icongoods {
     background-size: 12px 12px;
     background-repeat: no-repeat;
   }
@@ -221,8 +225,8 @@
   import food from '../food/food';
 
   const ERR_OK = 0;
-//  const debug = process.env.NODE_ENV !== 'production';
-  export default{
+  //  const debug = process.env.NODE_ENV !== 'production';
+  export default {
     props: {
       seller: {
         type: Object
