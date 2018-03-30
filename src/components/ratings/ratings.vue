@@ -35,7 +35,7 @@
             <div class="content">
               <h3 class="name">{{rating.username}}</h3>
               <div class="star-wrapper">
-                <v-star :size="24" :score="rating.scroe" class="star"></v-star>
+                <v-star :size="24" :score="rating.score" class="star"></v-star>
                 <span class="delivery" v-show="rating.deliveryTime">{{rating.deliveryTime}}</span>
               </div>
               <p class="text">{{rating.text}}</p>
@@ -267,7 +267,6 @@
       };
     },
     created() {
-//      const url = debug ? '/api/ratings' : 'http://ustbhuangyi.com/sell/api/ratings';
       this.$http.get('/api/ratings').then((response) => {
         response = response.body;
         if (response.errno === ERR_OK) {

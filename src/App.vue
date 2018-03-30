@@ -30,14 +30,12 @@
         seller: {
           id: (() => {
             let queryParam = urlParse();
-            console.log(queryParam);
             return queryParam.id;
           })()
         }
       };
     },
     created() {
-//      const url = debug ? '/api/seller' : 'http:///sell/api/seller';
       this.$http.get('/api/seller').then((response) => {
         response = response.body;
         if (response.errno === ERR_OK) {
